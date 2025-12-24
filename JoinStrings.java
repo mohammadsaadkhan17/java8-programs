@@ -11,14 +11,11 @@ public class JoinStrings {
 		
 		List<String> myList =Arrays.asList("Rahul", "Sonu", "Rohit", "Sohel", "Aman", "Ajay", "Sonu");
 
-		String joined = myList.stream().collect(Collectors.joining("," , "[" , "]"));
+		String joinedString = myList.stream().collect(Collectors.joining("," , "[" , "]"));
 		
-		System.out.println(joined);
+		System.out.println(joinedString);
 		
-		String g=myList.stream().collect(Collectors.joining(","));
-		
-		System.out.println(g);
-
 	}
 
 }
+
