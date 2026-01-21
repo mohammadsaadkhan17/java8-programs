@@ -1,5 +1,3 @@
-package streamseg;
-
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
@@ -17,8 +15,6 @@ public class PartitionEvenOdd {
 		
 		System.out.println("Even Numbers:"+evenOdd.get(true));
 		System.out.println("Odd Numbers:"+evenOdd.get(false));
-		
-
 	}
-
 }
+
